@@ -22,7 +22,7 @@ The score improved marginally after trying different hyper parameters.
 ### If you were given more time with this dataset, where do you think you would spend more time?
 Would spend more time delving into hyper parameter optimization. Understand the important parameters of the successful models and try to change them and verify if we could reduce error. Also try each individual model separately to learn and get used to the whole workflow.
 
-### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
+### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.  
 | model               | initial | add_features | hpo     |
 |---------------------|---------|--------------|---------|
 | XGBoost_BAG_L2      | -54.81  | -30.77       | -32.82	 |
@@ -30,17 +30,9 @@ Would spend more time delving into hyper parameter optimization. Understand the 
 | CatBoost_BAG_L2     | -55.48  | -32.5        | -32.43  |
 | score               | 1.77    | 0.73         | 0.50    |
 
-the project.
 
-TODO: Replace image below with your own.
 
-![moWas able to learn and implement a basic ML workflow. Autogluon looked really easy to use and gave an easy starting point to find good models for further optimization.odel_train_score.png)
-
-### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
-
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+Was able to learn and implement a basic ML workflow. Autogluon looked really easy to use and gave an easy starting point to find good models for further optimization.
